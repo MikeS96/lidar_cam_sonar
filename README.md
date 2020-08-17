@@ -31,7 +31,43 @@ The notebook is divided in the following sections:
  - cv2
  - matplotlib
  - open3d
+ - 
+## Files
+If you want to use this Notebook, please download the Kitti dataset and arrange its files as show below.
+
+> ├── 2011_09_26
+│   ├── 2011_09_26_drive_0005_sync
+│   │   ├── image_00
+│   │   │   ├── data [154 entries exceeds filelimit, not opening dir]
+│   │   │   └── timestamps.txt
+│   │   ├── image_01
+│   │   │   ├── data [154 entries exceeds filelimit, not opening dir]
+│   │   │   └── timestamps.txt
+│   │   ├── image_02
+│   │   │   ├── data [154 entries exceeds filelimit, not opening dir]
+│   │   │   └── timestamps.txt
+│   │   ├── image_03
+│   │   │   ├── data [154 entries exceeds filelimit, not opening dir]
+│   │   │   └── timestamps.txt
+│   │   ├── oxts
+│   │   │   ├── data [154 entries exceeds filelimit, not opening dir]
+│   │   │   ├── dataformat.txt
+│   │   │   └── timestamps.txt
+│   │   └── velodyne_points
+│   │       ├── data [154 entries exceeds filelimit, not opening dir]
+│   │       ├── timestamps_end.txt
+│   │       ├── timestamps_start.txt
+│   │       └── timestamps.txt
+│   ├── calib_cam_to_cam.txt
+│   ├── calib_imu_to_velo.txt
+│   └── calib_velo_to_cam.txt
+├── assets
+│   ├── final_point_cloud.png
+│   ├── point_cloud.png
+│   └── point_mapped.png
+├── image_laser_fusion.ipynb
+├── Raw_PointCloud_Totaltxt
+└── README.md
 
 Special thanks to [JohanSamir](https://github.com/JohanSamir) for providing this awesome notebook.
-
 

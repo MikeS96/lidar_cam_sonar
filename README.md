@@ -3,7 +3,7 @@
 This repository aims to be a short guide to map LiDAR point clouds to a camera image frame in the [Kitti dataset](http://www.cvlibs.net/datasets/kitti/). 
 
 <div  align="center">
-<img  src="./assets/point_mapped.png" width="320">
+<img  src="./assets/point_mapped.png" width="440">
 </div>
 
 ## Description
@@ -11,7 +11,7 @@ This repository aims to be a short guide to map LiDAR point clouds to a camera i
 Robotics-vision in a crucial task to endowing autonomous driving vehicles with environmental awareness. Without robust perception pipelines, it would be impossible to obtain reliable decision-making systems. This notebook aims to be a short guide and teach how to map a LiDAR point cloud to an image frame synchronize at the same timestamp.
 
 <div  align="center">
-<img  src="./assets/point_cloud.png" width="320">
+<img  src="./assets/point_cloud.png" width="440">
 </div>
 
 The notebook is divided in the following sections:
@@ -21,7 +21,7 @@ The notebook is divided in the following sections:
  - Filtering the point cloud and aligning
 
 <div  align="center">
-<img  src="./assets/final_point_cloud.png" width="320">
+<img  src="./assets/final_point_cloud.png" width="440">
 </div>
 
 ## Dependencies
